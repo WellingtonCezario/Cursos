@@ -1,17 +1,20 @@
 import Vue from 'vue'
+import './plugins/vuetify'
 import App from './App.vue'
+
+import './plugins/axios'
+
+import router from './router'
 import store from './store/store'
 
 Vue.config.productionTip = false
 
-import Painel from './components/Painel'
-Vue.component('Painel', Painel)
-
-Vue.filter('dinheiro', valor => {
-	return `R$ ${parseFloat(valor).toFixed(2)}`.replace('.', ',')
+Vue.filter('currency', value => {
+	return 'R$ ' + value.toLocaleString()
 })
 
 new Vue({
+	router,
 	store,
 	render: h => h(App),
 }).$mount('#app')
