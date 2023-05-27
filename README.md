@@ -7,7 +7,7 @@ Atualmente, você encontrará Vue.js e Laravel, mas fique à vontade para explor
 
 ## <h1 align = "center">Vue.js  </h1>
 ㅤ<h1 align = "center">[![My Skills](https://skillicons.dev/icons?i=vue)](https://skillicons.dev)</h1>
-Nesta seção, você encontrará todos os arquivos e projetos relacionados ao cursos de Vue.js que completei. O Vue.js é um framework JavaScript incrível para a criação de interfaces de usuário interativas.
+Nesta seção, você encontrará todos os arquivos e projetos relacionados ao curso de Vue.js que completei. O Vue.js é um framework JavaScript incrível para a criação de interfaces de usuário interativas.
 O cursos de Vue.js me permitiu aprofundar meu conhecimento em desenvolvimento front-end e construir aplicativos web modernos e dinâmicos.
 
 - [Curso de Vue.js](/vue/curso1): Neste curso, aprendi os conceitos fundamentais do Vue.js, como componentes, diretivas e reatividade.
