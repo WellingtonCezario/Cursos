@@ -1,0 +1,33 @@
+nome: "Wellington"
+idade: 20
+
+#Este comentario descreve meu objeto
+Objeto:
+  nome: "Meu Arquivo YAML"
+  tipo: "YAML"
+Numero: 1.5
+Numero2: 27 
+BoolT: true
+BoolT2: On
+BoolF: false
+BoolF2: Off
+Nulo: Null
+Nulo2: ~
+Lista1: ["item1", "item2", "item3"]
+Lista2:
+  - item1 
+  - item2
+StringComAspas: "Olá"
+StringSemAspas: Oi?
+Objeto1: {
+  Nome: "George",
+  Idade: 22,
+  Carros: {
+    Marca: {
+      CarroUm: "Ferrari",
+      CarroDois: "Mercedez"
+    }
+  }
+} 
+Objeto2:
+  tipo2: "Assim tambem funciona!"
