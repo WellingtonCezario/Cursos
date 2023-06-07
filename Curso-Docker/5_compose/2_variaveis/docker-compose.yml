@@ -8,6 +8,8 @@ services:
     restart: always
     env_file:
       - ./config/wp.env
+    networks:
+      - backend  
   wordpress:
     depends_on: 
       - db
@@ -17,5 +19,10 @@ services:
     restart: always
     env_file:
       - ./config/db.env
+    networks:
+      - backend  
 volumes:
   db_data: {}
+networks:
+  backend:
+  
